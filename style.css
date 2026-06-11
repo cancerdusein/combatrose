@@ -28,11 +28,12 @@ h1 {
     margin: 0;
 }
 
-slogan {
-    font-family:"Fave Script Pro", "Cooper", serif;
+.slogan {
+    font-family: "Playball", cursive;
     color: #ffe4ec;
-    font-size: 18px;
+    font-size: 26px;
 }
+
 
 /* Menu de navigation */
 nav a {
