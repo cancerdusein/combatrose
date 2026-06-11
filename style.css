@@ -22,7 +22,7 @@ header {
 
 /* Titre principal — POLICE N°2 : Georgia (avec empattements) */
 h1 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Cooper", serif;
     color: #ffffff;            /* COULEUR DE POLICE N°2 : blanc */
     font-size: 48px;
     margin: 0;
