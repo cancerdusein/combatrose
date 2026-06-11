@@ -1,0 +1,152 @@
+/* ============================================
+   FICHIER CSS — CombatRose
+   CRITÈRES : 3 styles de police différents,
+   plusieurs couleurs de police, mise en forme
+   ============================================ */
+
+/* Corps de la page — POLICE N°1 : Verdana */
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #fff0f5; /* rose très pâle */
+    color: #333333;            /* COULEUR DE POLICE N°1 : gris foncé */
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== EN-TÊTE ===== */
+header {
+    background-color: #e75480; /* rose vif */
+    text-align: center;        /* CRITÈRE : texte centré */
+    padding: 30px;
+}
+
+/* Titre principal — POLICE N°2 : Georgia (avec empattements) */
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #ffffff;            /* COULEUR DE POLICE N°2 : blanc */
+    font-size: 48px;
+    margin: 0;
+}
+
+.slogan {
+    color: #ffe4ec;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Menu de navigation */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(231, 84, 128, 0.2);
+}
+
+/* Sous-titres — couleur rose foncé */
+h2 {
+    font-family: Georgia, serif;
+    color: #c2185b;            /* COULEUR DE POLICE N°3 : rose foncé */
+    border-bottom: 3px solid #e75480;
+    padding-bottom: 8px;
+}
+
+/* CRITÈRE : texte centré */
+.texte-centre {
+    text-align: center;
+}
+
+/* CRITÈRE : texte aligné à droite */
+.texte-droite {
+    text-align: right;
+    color: #888888;
+}
+
+/* Mots importants en couleur */
+.important {
+    color: #e75480;            /* COULEUR DE POLICE N°4 : rose vif */
+    font-weight: bold;
+}
+
+/* Chiffres clés — POLICE N°3 : Courier New (style machine à écrire) */
+.chiffre {
+    font-family: "Courier New", monospace;
+    color: #c2185b;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ===== IMAGE ===== */
+.image-principale {
+    display: block;
+    margin: 20px auto;         /* image centrée */
+    max-width: 350px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* ===== TABLEAU ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #e75480;
+    color: #ffffff;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid #f4b6c9;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Une ligne sur deux en rose pâle (plus lisible) */
+tr:nth-child(even) {
+    background-color: #ffe4ec;
+}
+
+/* ===== VIDÉO ===== */
+.conteneur-video {
+    text-align: center;
+}
+
+.conteneur-video iframe {
+    max-width: 100%;
+    border: none;
+    border-radius: 12px;
+}
+
+/* ===== LIENS ===== */
+a {
+    color: #c2185b;
+}
+
+/* ===== PIED DE PAGE ===== */
+footer {
+    background-color: #e75480;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #ffffff;
+}
